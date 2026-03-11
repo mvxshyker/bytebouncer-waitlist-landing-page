@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -n \"''\\\\w\\\\+''s\\\\|you''re\\\\|don''t\\\\|it''s\\\\|that''s\\\\|we''re\\\\|isn''t\\\\|won''t\\\\|can''t\\\\|shouldn''t\\\\|there''s\" \"/Users/appagent/Desktop/bytebouncer waitlist/src/components/Features.jsx\" \"/Users/appagent/Desktop/bytebouncer waitlist/src/components/Problem.jsx\" \"/Users/appagent/Desktop/bytebouncer waitlist/src/components/HowItWorks.jsx\" \"/Users/appagent/Desktop/bytebouncer waitlist/src/components/SocialProof.jsx\" \"/Users/appagent/Desktop/bytebouncer waitlist/src/components/FAQ.jsx\" \"/Users/appagent/Desktop/bytebouncer waitlist/src/components/Hero.jsx\" \"/Users/appagent/Desktop/bytebouncer waitlist/src/components/Footer.jsx\")",
+      "Bash(npm run:*)",
+      "Bash(npm -v)",
+      "Bash(npx vercel:*)"
+    ]
+  }
+}
