@@ -1,0 +1,54 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+
+  <!-- Grid pattern -->
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="topGlow" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#BEFF00" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#BEFF00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#topGlow)"/>
+
+  <!-- Shield icon -->
+  <g transform="translate(140, 220)">
+    <path d="M40 6L8 18V36C8 49.25 22.15 61.56 40 65C57.85 61.56 72 49.25 72 36V18L40 6Z" fill="rgba(190,255,0,0.12)" stroke="#BEFF00" stroke-width="3"/>
+    <path d="M28 36L35 43L52 29" stroke="#BEFF00" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- ByteBouncer wordmark -->
+  <text x="230" y="263" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#BEFF00" letter-spacing="1">ByteBouncer</text>
+
+  <!-- Main headline -->
+  <text x="140" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="900" fill="white" letter-spacing="-2">Your phone is</text>
+  <text x="140" y="448" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="900" fill="#BEFF00" letter-spacing="-2">leaking data</text>
+  <text x="140" y="536" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="900" fill="white" letter-spacing="-2">right now.</text>
+
+  <!-- Right side stats -->
+  <g transform="translate(780, 200)">
+    <!-- Card 1 -->
+    <rect width="280" height="90" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <text x="24" y="40" font-family="system-ui, sans-serif" font-size="32" font-weight="900" fill="white">2.4 GB</text>
+    <text x="24" y="66" font-family="system-ui, sans-serif" font-size="14" fill="#888888">avg. data saved per week</text>
+
+    <!-- Card 2 -->
+    <rect y="110" width="280" height="90" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <text x="24" y="150" font-family="system-ui, sans-serif" font-size="32" font-weight="900" fill="white">342K+</text>
+    <text x="24" y="176" font-family="system-ui, sans-serif" font-size="14" fill="#888888">requests blocked daily</text>
+
+    <!-- Card 3 -->
+    <rect y="220" width="280" height="90" rx="16" fill="rgba(190,255,0,0.06)" stroke="rgba(190,255,0,0.2)" stroke-width="1"/>
+    <text x="24" y="260" font-family="system-ui, sans-serif" font-size="32" font-weight="900" fill="#BEFF00">100%</text>
+    <text x="24" y="286" font-family="system-ui, sans-serif" font-size="14" fill="#888888">on-device · no servers</text>
+
+    <!-- Badge -->
+    <rect y="340" width="280" height="44" rx="22" fill="rgba(190,255,0,0.08)" stroke="rgba(190,255,0,0.2)" stroke-width="1"/>
+    <circle cx="30" cy="362" r="6" fill="#BEFF00"/>
+    <text x="48" y="367" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#888888">Free during beta · iOS only</text>
+  </g>
+</svg>
